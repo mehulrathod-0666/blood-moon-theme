@@ -1,4 +1,4 @@
-<img width="1919" height="1079" alt="Blood-Moon Preview" src="screenshot.png" />
+<img width="1919" height="1079" alt="Blood-Moon Preview" src="preview.png" />
 
 #### Install with Bash:
 
