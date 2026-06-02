@@ -18,32 +18,18 @@
 - **Hyprland:** Custom active/inactive borders and specialized group/tab styling.
 - **Waybar:** Fully themed status bar with Blood-Moon colors.
 - **Terminals:** Native support for Alacritty, Kitty, Foot, and Ghostty.
-- **Browsers:** Custom CSS for Firefox and an unpacked theme for Chrome/Chromium.
+- **Browsers:** Automatic theming for Chrome, Chromium, and Firefox.
 - **Wallpapers:** 6 curated backgrounds included in the `/backgrounds` folder.
 - **App Support:** Mako (Notifications), SwayOSD, Walker (Launcher), Neovim, VSCode, and Btop.
 
 ## 🚀 Installation
 
-### 1. Main System Theme
-Apply the theme instantly using the Omarchy CLI:
+### Main System Theme
+Apply the theme instantly using the Omarchy CLI. Browser themes for Chrome and Firefox will be applied automatically!
 
 ```bash
 omarchy theme install https://github.com/mehulrathod-0666/omarchy-blood-moon-theme.git
 ```
-
-### 2. Browser Themes
-
-#### 🌐 Chrome / Chromium
-1. Navigate to `chrome://extensions`.
-2. Enable **Developer mode** (top right).
-3. Click **Load unpacked**.
-4. Select: `~/.config/omarchy/themes/blood-moon/chrome-theme`
-
-#### 🦊 Firefox
-1. Open your Firefox profile folder.
-2. Create a folder named `chrome` (if it doesn't exist).
-3. Copy the `firefox-theme/userChrome.css` file into it.
-4. Go to `about:config`, search for `toolkit.legacyUserProfileCustomizations.stylesheets`, and set it to **true**.
 
 ---
 

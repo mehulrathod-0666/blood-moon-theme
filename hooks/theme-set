@@ -1,0 +1,17 @@
+#!/bin/bash
+
+# This hook runs after the theme is set.
+# It automatically applies the Firefox userChrome.css.
+
+THEME_DIR="$HOME/.config/omarchy/themes/blood-moon"
+FF_THEME="$THEME_DIR/firefox-theme/userChrome.css"
+
+if [[ -d "$HOME/.mozilla/firefox" ]]; then
+    for profile in "$HOME/.mozilla/firefox"/*.*/; do
+        if [[ -d "$profile" ]]; then
+            mkdir -p "$profile/chrome"
+            cp "$FF_THEME" "$profile/chrome/userChrome.css"
+            echo "Updated Firefox profile: $(basename "$profile")"
+        fi
+    done
+fi
