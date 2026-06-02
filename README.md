@@ -7,3 +7,4 @@ omarchy theme install https://github.com/mehulrathod-0666/blood-moon-theme.git
 ```
 
 
+Main theme is pink-blood. i just customaized it 
