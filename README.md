@@ -3,7 +3,7 @@
 #### Install with Bash:
 
 ```bash
-omarchy theme install https://github.com/mehulrathod-0666/blood-moon-theme.git
+omarchy theme install https://github.com/mehulrathod-0666/omarchy-blood-moon-theme.git
 ```
 
 
