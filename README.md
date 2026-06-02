@@ -47,13 +47,23 @@ omarchy theme install https://github.com/mehulrathod-0666/omarchy-blood-moon-the
 
 ---
 
-## 🖼️ Included Wallpapers
-This theme comes with several curated backgrounds:
-- `0main.png` (Default)
-- `cloudMoon.jpg`
-- `sakuraMoon.jpg`
-- `red2077.jpg`
-- ...and more in the `backgrounds/` directory.
+## 🖼️ Wallpaper Gallery
+This theme includes 6 curated backgrounds. You can cycle through them using `omarchy theme bg next`.
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center"><img src="backgrounds/0main.png" width="250px"><br><sub>0main</sub></td>
+      <td align="center"><img src="backgrounds/cloudMoon.jpg" width="250px"><br><sub>cloudMoon</sub></td>
+      <td align="center"><img src="backgrounds/sakuraMoon.jpg" width="250px"><br><sub>sakuraMoon</sub></td>
+    </tr>
+    <tr>
+      <td align="center"><img src="backgrounds/red2077.jpg" width="250px"><br><sub>red2077</sub></td>
+      <td align="center"><img src="backgrounds/redIconcude.jpg" width="250px"><br><sub>redIconcude</sub></td>
+      <td align="center"><img src="backgrounds/cude.jpg" width="250px"><br><sub>cude</sub></td>
+    </tr>
+  </table>
+</div>
 
 ## 📜 License
 This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
