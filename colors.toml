@@ -1,3 +1,7 @@
+name = "Blood-Moon"
+author = "mehulrathod-0666"
+description = "A deep, vibrant red and black theme for Omarchy."
+
 accent = "#F00F40"
 cursor = "#f17e97"
 foreground = "#f17e97"
