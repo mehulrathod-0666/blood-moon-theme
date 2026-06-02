@@ -1,22 +1,15 @@
 /* Blood-Moon Firefox Theme */
 
 :root {
-  /* 1. Dark Burgundy (#5A2333) - Active Tab and Toolbar Area */
-  --toolbar-bgcolor: #5A2333 !important;
-  --toolbar-color: #D697A6 !important;
-  --lwt-selected-tab-background-color: #5A2333 !important;
-
-  /* 2. Dusty Rose (#D697A6) - Highlights and Accents */
-  --lwt-text-color: #D697A6 !important;
-  --lwt-toolbar-field-color: #D697A6 !important;
-  --tab-line-color: #D697A6 !important;
-
-  /* 3. Muted Mauve (#745B62) - Inactive Tabs and Frame */
-  --lwt-accent-color: #745B62 !important;
-  --lwt-toolbar-field-border-color: #745B62 !important;
-
-  /* 4. Deep Warm Burgundy (#3D2A2B) - Background / Surface */
-  --lwt-toolbar-field-background-color: #3D2A2B !important;
+  --toolbar-bgcolor: #050007 !important;
+  --toolbar-color: #f17e97 !important;
+  --lwt-accent-color: #050007 !important;
+  --lwt-text-color: #f17e97 !important;
+  --lwt-toolbar-field-background-color: #1a0002 !important;
+  --lwt-toolbar-field-color: #f17e97 !important;
+  --lwt-toolbar-field-border-color: #8F0936 !important;
+  --lwt-selected-tab-background-color: #8F0936 !important;
+  --tab-line-color: #F00F40 !important;
 }
 
 #nav-bar {
@@ -36,9 +29,4 @@
 
 .tab-line[selected="true"] {
   background-color: var(--tab-line-color) !important;
-}
-
-/* Ensure inactive tabs use the Muted Mauve color */
-.tabbrowser-tab:not([selected="true"]) .tab-background {
-  background-color: var(--lwt-accent-color) !important;
 }
