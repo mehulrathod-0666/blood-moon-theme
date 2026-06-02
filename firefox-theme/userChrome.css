@@ -1,0 +1,32 @@
+/* Blood-Moon Firefox Theme */
+
+:root {
+  --toolbar-bgcolor: #050007 !important;
+  --toolbar-color: #f17e97 !important;
+  --lwt-accent-color: #050007 !important;
+  --lwt-text-color: #f17e97 !important;
+  --lwt-toolbar-field-background-color: #1a0002 !important;
+  --lwt-toolbar-field-color: #f17e97 !important;
+  --lwt-toolbar-field-border-color: #8F0936 !important;
+  --lwt-selected-tab-background-color: #8F0936 !important;
+  --tab-line-color: #F00F40 !important;
+}
+
+#nav-bar {
+  background-color: var(--toolbar-bgcolor) !important;
+  box-shadow: none !important;
+}
+
+#urlbar-background {
+  background-color: var(--lwt-toolbar-field-background-color) !important;
+  border: 1px solid var(--lwt-toolbar-field-border-color) !important;
+}
+
+.tab-background[selected="true"] {
+  background-color: var(--lwt-selected-tab-background-color) !important;
+  background-image: none !important;
+}
+
+.tab-line[selected="true"] {
+  background-color: var(--tab-line-color) !important;
+}

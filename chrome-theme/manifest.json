@@ -1,28 +1,27 @@
 {
   "manifest_version": 3,
-  "version": "1.0",
+  "version": "1.1",
   "name": "Blood Moon",
-  "description": "Blood Moon Chrome theme — auto-generated from Omarchy theme",
+  "description": "Blood Moon Chrome theme — High contrast red and black",
   "theme": {
     "colors": {
       "frame": [5, 0, 7],
-      "frame_inactive": [26, 0, 2],
+      "frame_inactive": [5, 0, 7],
       "frame_incognito": [5, 0, 7],
-      "toolbar": [13, 0, 3],
+      "frame_incognito_inactive": [5, 0, 7],
+      "toolbar": [26, 0, 2],
       "tab_text": [241, 126, 151],
-      "tab_background_text": [168, 88, 105],
+      "tab_background_text": [143, 9, 54],
+      "tab_background": [5, 0, 7],
       "bookmark_text": [241, 126, 151],
       "ntp_background": [5, 0, 7],
       "ntp_text": [241, 126, 151],
       "ntp_link": [240, 15, 64],
-      "ntp_header": [13, 0, 3],
-      "button_background": [240, 15, 64, 76]
+      "ntp_header": [26, 0, 2],
+      "button_background": [240, 15, 64, 0]
     },
     "tints": {
-      "buttons": [0.95, 0.88, 0.72]
-    },
-    "images": {
-      "theme_frame": "images/frame.png"
+      "buttons": [0.95, 0.8, 0.5]
     },
     "properties": {
       "ntp_background_alignment": "center",
