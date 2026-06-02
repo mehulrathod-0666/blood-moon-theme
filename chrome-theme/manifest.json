@@ -1,27 +1,27 @@
 {
   "manifest_version": 3,
-  "version": "1.1",
-  "name": "Blood Moon",
-  "description": "Blood Moon Chrome theme — High contrast red and black",
+  "version": "1.2",
+  "name": "Blood Moon - Burgundy & Rose",
+  "description": "Blood Moon Chrome theme — Burgundy, Rose, and Mauve palette",
   "theme": {
     "colors": {
-      "frame": [5, 0, 7],
-      "frame_inactive": [5, 0, 7],
-      "frame_incognito": [5, 0, 7],
-      "frame_incognito_inactive": [5, 0, 7],
-      "toolbar": [26, 0, 2],
-      "tab_text": [241, 126, 151],
-      "tab_background_text": [143, 9, 54],
-      "tab_background": [5, 0, 7],
-      "bookmark_text": [241, 126, 151],
-      "ntp_background": [5, 0, 7],
-      "ntp_text": [241, 126, 151],
-      "ntp_link": [240, 15, 64],
-      "ntp_header": [26, 0, 2],
-      "button_background": [240, 15, 64, 0]
+      "frame": [116, 91, 98],
+      "frame_inactive": [116, 91, 98],
+      "frame_incognito": [90, 35, 51],
+      "frame_incognito_inactive": [116, 91, 98],
+      "toolbar": [90, 35, 51],
+      "tab_text": [214, 151, 166],
+      "tab_background_text": [61, 42, 43],
+      "tab_background": [116, 91, 98],
+      "bookmark_text": [214, 151, 166],
+      "ntp_background": [61, 42, 43],
+      "ntp_text": [214, 151, 166],
+      "ntp_link": [214, 151, 166],
+      "ntp_header": [90, 35, 51],
+      "button_background": [214, 151, 166, 0]
     },
     "tints": {
-      "buttons": [0.95, 0.8, 0.5]
+      "buttons": [0.95, 0.6, 0.4]
     },
     "properties": {
       "ntp_background_alignment": "center",
