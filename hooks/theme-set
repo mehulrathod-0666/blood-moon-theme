@@ -15,3 +15,7 @@ if [[ -d "$HOME/.mozilla/firefox" ]]; then
         fi
     done
 fi
+
+# Apply theme to Chrome/Chromium/Brave via Omarchy policy
+omarchy-theme-set-browser
+
