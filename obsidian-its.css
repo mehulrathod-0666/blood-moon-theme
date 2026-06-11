@@ -44,7 +44,7 @@ settings:
         title: Roundness
         id: radius-s
         type: variable-number-slider
-        default: 0
+        default: 8
         format: px
         min: 0
         max: 12
@@ -1353,7 +1353,7 @@ settings:
         title: H6 Underline Width
         id: h6-border-line-width
         type: variable-number-slider
-        default: 0
+        default: 8
         format: "%"
         min: 0
         max: 100
@@ -2779,7 +2779,7 @@ settings:
         title: Canvas Card Background Color Brightness
         id: canvas-color-opacity
         type: variable-number-slider
-        default: 0.07
+        default: 8.07
         format: ''
         min: 0.04
         max: 0.18
@@ -3166,7 +3166,7 @@ body.theme-light {
   --fa5: "Font Awesome 5 Free Solid";
   --fa6: "Font Awesome 6 Free Solid";
   --rpg: "rpg-awesome";
-  --radius-s: 0;
+  --radius-s: 8px;
   --radius-m: calc(var(--radius-s) * 1.1);
   --radius-l: calc(var(--radius-s) * 1.2);
   --radius-xl: calc(var(--radius-s) * 1.5);
@@ -3184,7 +3184,7 @@ body.theme-light {
   --pill-radius: var(--radius-m);
   --bold-weight: 900;
   --bold-modifier: 500;
-  --navbar-radius: 0;
+  --navbar-radius: 8px;
   --font-ui-smaller: 13.5px;
   --font-ui-small: 14px;
   --font-ui-medium: 15px;
@@ -3895,7 +3895,7 @@ body {
 @media (max-width: 500px) {
   .theme-dark, .theme-light {
     /*Mobile Sizes*/
-    --radius: 0px;
+    --radius: 8px;
     --micro: 70px;
     --tiny: 100px;
     --small: 150px;
@@ -4558,8 +4558,8 @@ body:not(.disable-source-styling) .cm-s-obsidian.markdown-source-view:not(.is-li
   --h6-size: var(--font-text);
   --p-spacing: 0.25em;
   --list-marker-color-collapsed: var(--list-marker-color);
-  --tag-radius: 0;
-  --tag-border-radius: 0;
+  --tag-radius: 4px;
+  --tag-border-radius: 4px;
   --tag-border-width: 0;
 }
 body:not(.disable-source-styling) .cm-s-obsidian.markdown-source-view:not(.is-live-preview) .cm-line.HyperMD-codeblock {
@@ -7222,7 +7222,7 @@ body {
 @media (max-width: 500px) {
   .theme-dark, .theme-light {
     /*Mobile Sizes*/
-    --radius: 0px;
+    --radius: 8px;
     --micro: 70px;
     --tiny: 100px;
     --small: 150px;
