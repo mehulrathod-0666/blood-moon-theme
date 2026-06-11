@@ -1,127 +1,138 @@
 /*
- * Blood Moon Obsidian Theme for Omarchy
- * Inspired by Catppuccin, refined for the Blood-Moon palette.
+ * Omarchy Theme for Obsidian - Material Blood Moon Edition
+ * Redesigned with Material 3 principles while using the Blood-Moon palette.
  */
 
 .theme-dark {
-  /* --- Workspace Colors --- */
-  --background-primary: #050007;
-  --background-primary-alt: #1a0002;
-  --background-secondary: #050007;
-  --background-secondary-alt: #1a0002;
-  --background-modifier-border: #2d0008;
-  --background-modifier-border-focus: #4a0303;
+  /* --- Material 3 Core (Blood Moon Palette) --- */
+  --background-primary: #050007;        /* Surface */
+  --background-primary-alt: #1a0002;    /* Surface Container */
+  --background-secondary: #050007;      /* Surface Low */
+  --background-secondary-alt: #1a0002;  /* Surface Container High */
+  --background-modifier-border: #2d0008; /* Outline Variant */
+  --background-modifier-border-focus: #fc0303; /* Primary Outline */
   
-  /* --- Text Colors --- */
-  --text-normal: #e6c4c0;
-  --text-muted: #8b0409;
-  --text-faint: #4a0303;
-  --text-accent: #fc0303;
+  /* --- Text (Material Typography) --- */
+  --text-normal: #e6c4c0;               /* On Surface */
+  --text-muted: #8b0409;                /* On Surface Variant */
+  --text-faint: #4a0303;                /* Outline */
+  --text-accent: #fc0303;               /* Primary */
   --text-accent-hover: #ff1a1a;
   
-  /* --- Interactive --- */
-  --interactive-accent: #fc0303;
+  /* --- Interactive (Material Shapes) --- */
+  --interactive-accent: #fc0303;        /* Primary */
   --interactive-accent-hover: #ff1a1a;
-  --interactive-hover: #1a0002;
-  --interactive-normal: #050007;
-  --interactive-success: #800000;
+  --interactive-hover: rgba(252, 3, 3, 0.08);
+  --interactive-normal: #1a0002;
   
-  /* --- Scrollbars --- */
-  --scrollbar-bg: transparent;
-  --scrollbar-thumb-bg: #4a0303;
-  --scrollbar-active-thumb-bg: #8b0409;
+  /* --- Material Radius & Spacing --- */
+  --radius-s: 8px;
+  --radius-m: 12px;
+  --radius-l: 16px;
+  --radius-xl: 28px; /* Material 3 Extra Large */
   
   /* --- Selection --- */
-  --text-selection: rgba(252, 3, 3, 0.3);
-  
-  /* --- Code Blocks --- */
-  --code-background: #1a0002;
-  --code-normal: #e6c4c0;
-  --code-comment: #4a0303;
-  --code-function: #fc0303;
-  --code-keyword: #a00000;
-  --code-string: #800000;
-  --code-value: #cc0000;
+  --text-selection: rgba(252, 3, 3, 0.25);
   
   /* --- Headings --- */
   --h1-color: #fc0303;
-  --h2-color: #cc0000;
-  --h3-color: #a00000;
-  --h4-color: #800000;
-  --h5-color: #660000;
-  --h6-color: #4a0303;
+  --h2-color: #fc0303;
+  --h3-color: #fc0303;
+  --h4-color: #fc0303;
+  --h5-color: #fc0303;
+  --h6-color: #fc0303;
 }
 
-/* UI Elements */
+/* Material 3 UI Styling */
+
+/* Sidebars & Ribbons */
 .workspace-ribbon.mod-left {
   background-color: #050007;
-  border-right: 1px solid #2d0008;
+  border-right: none;
+  padding: 8px;
+}
+
+.workspace-sidebar {
+  background-color: #050007;
 }
 
 .nav-files-container {
-  background-color: #050007;
+  margin: 8px;
+  background-color: #1a0002;
+  border-radius: var(--radius-m);
 }
 
+/* Active File Styling (Material Pill) */
 .nav-file-title.is-active,
 .nav-folder-title.is-active {
-  background-color: #1a0002;
-  color: #fc0303;
+  background-color: #fc0303 !important;
+  color: #050007 !important;
+  border-radius: var(--radius-xl);
+  font-weight: 600;
 }
 
 .nav-file-title:hover,
 .nav-folder-title:hover {
+  background-color: rgba(252, 3, 3, 0.1);
+  border-radius: var(--radius-xl);
+}
+
+/* Floating Action Button Style for Ribbons */
+.side-dock-ribbon-action {
+  border-radius: var(--radius-m) !important;
+  margin-bottom: 4px;
+}
+
+/* Tab Headers (Material Style) */
+.workspace-tab-header {
+  border-radius: var(--radius-m) var(--radius-m) 0 0;
+  margin-right: 2px;
+}
+
+.workspace-tab-header.is-active {
   background-color: #1a0002;
-}
-
-/* Headings Rendering */
-.markdown-rendered h1, .cm-header-1 { color: var(--h1-color); font-weight: 700; }
-.markdown-rendered h2, .cm-header-2 { color: var(--h2-color); font-weight: 600; }
-.markdown-rendered h3, .cm-header-3 { color: var(--h3-color); font-weight: 600; }
-.markdown-rendered h4, .cm-header-4 { color: var(--h4-color); }
-.markdown-rendered h5, .cm-header-5 { color: var(--h5-color); }
-.markdown-rendered h6, .cm-header-6 { color: var(--h6-color); }
-
-/* Links */
-.markdown-rendered a, .cm-link {
-  color: var(--text-accent);
-  text-decoration: none;
-}
-
-.markdown-rendered a:hover, .cm-link:hover {
-  text-decoration: underline;
-}
-
-/* Checkboxes */
-.task-list-item-checkbox:checked {
-  background-color: #fc0303;
-  border-color: #fc0303;
-}
-
-/* Blockquotes */
-.markdown-rendered blockquote {
-  border-left: 3px solid #fc0303;
-  background-color: #1a0002;
-  color: #e6c4c0;
-}
-
-/* Tables */
-.markdown-rendered table {
-  border-collapse: collapse;
-  margin: 1em 0;
-}
-
-.markdown-rendered th {
-  background-color: #1a0002;
-  border: 1px solid #2d0008;
   color: #fc0303;
 }
 
-.markdown-rendered td {
-  border: 1px solid #2d0008;
+/* Code Blocks & Cards */
+.markdown-rendered code {
+  background-color: #1a0002;
+  border-radius: var(--radius-s);
+  padding: 2px 6px;
+  color: #fc0303;
 }
 
-/* Graph View */
-.theme-dark .graph-view.color-fill { color: #fc0303; }
-.theme-dark .graph-view.color-line { color: #2d0008; }
-.theme-dark .graph-view.color-text { color: #e6c4c0; }
-.theme-dark .graph-view.color-fill-highlight { color: #ff1a1a; }
+pre {
+  background-color: #1a0002 !important;
+  border: 1px solid #2d0008;
+  border-radius: var(--radius-m) !important;
+}
+
+/* Blockquotes (Material Elevation) */
+.markdown-rendered blockquote {
+  border-left: 4px solid #fc0303;
+  background-color: #1a0002;
+  border-radius: 0 var(--radius-m) var(--radius-m) 0;
+  margin: 1em 0;
+  padding: 12px 20px;
+}
+
+/* Checkboxes (Material Design) */
+.task-list-item-checkbox {
+  border-radius: 4px;
+  appearance: none;
+  border: 2px solid #8b0409;
+}
+
+.task-list-item-checkbox:checked {
+  background-color: #fc0303;
+  border-color: #fc0303;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='black'%3E%3Cpath d='M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z'/%3E%3C/svg%3E");
+}
+
+/* Search Bars */
+.search-bar {
+  border-radius: var(--radius-xl) !important;
+  background-color: #1a0002 !important;
+  border: 1px solid #2d0008 !important;
+}

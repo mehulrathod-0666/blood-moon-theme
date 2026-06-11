@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "version": "1.4",
-  "name": "Blood Moon - True Red",
-  "description": "Blood Moon Chrome theme — Deep black background with vibrant true red accents.",
+  "version": "1.6",
+  "name": "Blood Moon Material",
+  "description": "Material Design 3 style with the Blood Moon palette.",
   "theme": {
     "colors": {
       "frame": [5, 0, 7],
@@ -21,7 +21,7 @@
       "button_background": [252, 3, 3, 0]
     },
     "tints": {
-      "buttons": [0, 1, 0.5]
+      "buttons": [0, 0.1, 0.5]
     },
     "properties": {
       "ntp_background_alignment": "center",
