@@ -1,6 +1,8 @@
 <div align="center">
   <img src="preview.png" alt="Blood-Moon Preview 1" width="100%">
-  <br>
+
+--- 
+  
   <img src="preview2.png" alt="Blood-Moon Preview 2" width="100%">
 
   # 🌙 Blood-Moon Theme
