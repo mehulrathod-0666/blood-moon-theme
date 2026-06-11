@@ -1,0 +1,127 @@
+/*
+ * Blood Moon Obsidian Theme for Omarchy
+ * Inspired by Catppuccin, refined for the Blood-Moon palette.
+ */
+
+.theme-dark {
+  /* --- Workspace Colors --- */
+  --background-primary: #050007;
+  --background-primary-alt: #1a0002;
+  --background-secondary: #050007;
+  --background-secondary-alt: #1a0002;
+  --background-modifier-border: #2d0008;
+  --background-modifier-border-focus: #4a0303;
+  
+  /* --- Text Colors --- */
+  --text-normal: #e6c4c0;
+  --text-muted: #8b0409;
+  --text-faint: #4a0303;
+  --text-accent: #fc0303;
+  --text-accent-hover: #ff1a1a;
+  
+  /* --- Interactive --- */
+  --interactive-accent: #fc0303;
+  --interactive-accent-hover: #ff1a1a;
+  --interactive-hover: #1a0002;
+  --interactive-normal: #050007;
+  --interactive-success: #800000;
+  
+  /* --- Scrollbars --- */
+  --scrollbar-bg: transparent;
+  --scrollbar-thumb-bg: #4a0303;
+  --scrollbar-active-thumb-bg: #8b0409;
+  
+  /* --- Selection --- */
+  --text-selection: rgba(252, 3, 3, 0.3);
+  
+  /* --- Code Blocks --- */
+  --code-background: #1a0002;
+  --code-normal: #e6c4c0;
+  --code-comment: #4a0303;
+  --code-function: #fc0303;
+  --code-keyword: #a00000;
+  --code-string: #800000;
+  --code-value: #cc0000;
+  
+  /* --- Headings --- */
+  --h1-color: #fc0303;
+  --h2-color: #cc0000;
+  --h3-color: #a00000;
+  --h4-color: #800000;
+  --h5-color: #660000;
+  --h6-color: #4a0303;
+}
+
+/* UI Elements */
+.workspace-ribbon.mod-left {
+  background-color: #050007;
+  border-right: 1px solid #2d0008;
+}
+
+.nav-files-container {
+  background-color: #050007;
+}
+
+.nav-file-title.is-active,
+.nav-folder-title.is-active {
+  background-color: #1a0002;
+  color: #fc0303;
+}
+
+.nav-file-title:hover,
+.nav-folder-title:hover {
+  background-color: #1a0002;
+}
+
+/* Headings Rendering */
+.markdown-rendered h1, .cm-header-1 { color: var(--h1-color); font-weight: 700; }
+.markdown-rendered h2, .cm-header-2 { color: var(--h2-color); font-weight: 600; }
+.markdown-rendered h3, .cm-header-3 { color: var(--h3-color); font-weight: 600; }
+.markdown-rendered h4, .cm-header-4 { color: var(--h4-color); }
+.markdown-rendered h5, .cm-header-5 { color: var(--h5-color); }
+.markdown-rendered h6, .cm-header-6 { color: var(--h6-color); }
+
+/* Links */
+.markdown-rendered a, .cm-link {
+  color: var(--text-accent);
+  text-decoration: none;
+}
+
+.markdown-rendered a:hover, .cm-link:hover {
+  text-decoration: underline;
+}
+
+/* Checkboxes */
+.task-list-item-checkbox:checked {
+  background-color: #fc0303;
+  border-color: #fc0303;
+}
+
+/* Blockquotes */
+.markdown-rendered blockquote {
+  border-left: 3px solid #fc0303;
+  background-color: #1a0002;
+  color: #e6c4c0;
+}
+
+/* Tables */
+.markdown-rendered table {
+  border-collapse: collapse;
+  margin: 1em 0;
+}
+
+.markdown-rendered th {
+  background-color: #1a0002;
+  border: 1px solid #2d0008;
+  color: #fc0303;
+}
+
+.markdown-rendered td {
+  border: 1px solid #2d0008;
+}
+
+/* Graph View */
+.theme-dark .graph-view.color-fill { color: #fc0303; }
+.theme-dark .graph-view.color-line { color: #2d0008; }
+.theme-dark .graph-view.color-text { color: #e6c4c0; }
+.theme-dark .graph-view.color-fill-highlight { color: #ff1a1a; }
