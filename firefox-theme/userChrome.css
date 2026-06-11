@@ -2,14 +2,14 @@
 
 :root {
   --toolbar-bgcolor: #050007 !important;
-  --toolbar-color: #f17e97 !important;
+  --toolbar-color: #e6c4c0 !important;
   --lwt-accent-color: #050007 !important;
-  --lwt-text-color: #f17e97 !important;
+  --lwt-text-color: #e6c4c0 !important;
   --lwt-toolbar-field-background-color: #1a0002 !important;
-  --lwt-toolbar-field-color: #f17e97 !important;
-  --lwt-toolbar-field-border-color: #8F0936 !important;
-  --lwt-selected-tab-background-color: #8F0936 !important;
-  --tab-line-color: #F00F40 !important;
+  --lwt-toolbar-field-color: #e6c4c0 !important;
+  --lwt-toolbar-field-border-color: #660000 !important;
+  --lwt-selected-tab-background-color: #660000 !important;
+  --tab-line-color: #fc0303 !important;
 }
 
 #nav-bar {
