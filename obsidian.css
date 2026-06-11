@@ -1,29 +1,29 @@
 /*
- * Omarchy Theme for Obsidian - Muted Crimson & Charcoal Edition
- * Refactored for reduced visual fatigue with a modern Material-inspired hierarchy.
+ * Omarchy Theme for Obsidian - True Blood Moon Edition
+ * Rebuilt with a Deep Background, Ash Grey Reading Text, and Vibrant Crimson Accents.
  */
 
 .theme-dark {
-  /* --- Core Palette (Muted Crimson & Charcoal) --- */
-  --background-primary: #181818;        /* Main Background */
-  --background-primary-alt: #242424;    /* Surface/Cards */
-  --background-secondary: #181818;      /* Secondary Background */
-  --background-secondary-alt: #242424;  /* Panels/Containers */
-  --background-modifier-border: #5A5A5A; /* Dividers and Borders */
-  --background-modifier-border-focus: #E06C75; /* Active Border */
+  /* --- Core Color Tokens --- */
+  --background-primary: #000000;         /* Deep Background */
+  --background-primary-alt: #140505;     /* Subtle Surface Container */
+  --background-secondary: #000000;       /* Sidebar/Canvas Background */
+  --background-secondary-alt: #140505;   /* Secondary Panels */
+  --background-modifier-border: #5A5252;  /* Muted UI Borders */
+  --background-modifier-border-focus: #D60000; /* Vibrant Accent Border */
   
-  /* --- Typography (Neutral & High Contrast) --- */
-  --text-normal: #E5E5E5;               /* Primary Text */
-  --text-muted: #5A5A5A;                /* Muted Text */
-  --text-faint: #5A5A5A;                /* Faint Text */
-  --text-accent: #E06C75;               /* Interactive Primary */
-  --text-accent-hover: #E06C75;
+  /* --- Typography --- */
+  --text-normal: #C5B8B8;                /* Primary Reading Text (Ash Grey) */
+  --text-muted: #5A5252;                 /* Muted UI Elements */
+  --text-faint: #5A5252;                 /* Inactive Text */
+  --text-accent: #D60000;                /* Vibrant Crimson Accent */
+  --text-accent-hover: #D60000;
   
-  /* --- Interactive (Material Shapes) --- */
-  --interactive-accent: #E06C75;        /* Primary Accent */
-  --interactive-accent-hover: #E06C75;
-  --interactive-hover: rgba(224, 108, 117, 0.1);
-  --interactive-normal: #242424;
+  /* --- Interactive & Highlights --- */
+  --interactive-accent: #D60000;         /* Focus Color */
+  --interactive-accent-hover: #D60000;
+  --interactive-hover: rgba(214, 0, 0, 0.1);
+  --interactive-normal: #140505;
   
   /* --- Layout & Spacing --- */
   --radius-s: 8px;
@@ -32,75 +32,107 @@
   --radius-xl: 24px;
   
   /* --- Selection --- */
-  --text-selection: rgba(224, 108, 117, 0.2);
+  --text-selection: rgba(214, 0, 0, 0.25);
   
-  /* --- Headings (Removed Primary Red) --- */
-  --h1-color: #E5E5E5;
-  --h2-color: #E5E5E5;
-  --h3-color: #E5E5E5;
-  --h4-color: #E5E5E5;
-  --h5-color: #E5E5E5;
-  --h6-color: #E5E5E5;
+  /* --- Typography Hierarchy --- */
+  --h1-color: #D60000;                   /* Vibrant Crimson for H1 */
+  --h2-color: #D60000;                   /* Vibrant Crimson for H2 */
+  --h3-color: #C5B8B8;                   /* Ash Grey for H3-H6 */
+  --h4-color: #C5B8B8;
+  --h5-color: #C5B8B8;
+  --h6-color: #C5B8B8;
 }
 
-/* UI Elevation & Hierarchy */
+/* UI Elevation & Workspace Hierarchy */
 
 .workspace-ribbon.mod-left {
-  background-color: #181818;
-  border-right: 1px solid #242424;
+  background-color: #000000;
+  border-right: 1px solid #5A5252;
   padding: 10px 6px;
 }
 
 .workspace-sidebar {
-  background-color: #181818;
+  background-color: #000000;
 }
 
 .nav-files-container {
   margin: 10px;
-  background-color: #242424;
+  background-color: #140505;
   border-radius: var(--radius-m);
-  border: 1px solid #5A5A5A;
+  border: 1px solid #5A5252;
 }
 
-/* Active File Styling (Restricted Red Accent) */
+/* File Explorer Items */
+.nav-file-title, 
+.nav-folder-title {
+  color: #C5B8B8;                        /* Standard labels in Ash Grey */
+}
+
+/* Active File/Tab Styling (Strict Crimson Accent) */
 .nav-file-title.is-active,
 .nav-folder-title.is-active {
-  background-color: rgba(224, 108, 117, 0.15) !important;
-  color: #E06C75 !important;
+  background-color: rgba(214, 0, 0, 0.15) !important;
+  color: #D60000 !important;             /* Vibrant Crimson for Active State */
   border-radius: var(--radius-xl);
   font-weight: 600;
-  border-left: 3px solid #E06C75;
+  border-left: 3px solid #D60000;
+}
+
+/* Folder Toggle Chevrons */
+.nav-folder-collapse-indicator {
+  color: #D60000 !important;             /* Chevrons in Crimson */
+}
+
+/* Inactive States */
+.nav-file-title:not(.is-active),
+.nav-folder-title:not(.is-active),
+.workspace-tab-header:not(.is-active) {
+  color: #5A5252;                        /* Inactive items in Muted Slate Grey */
 }
 
 .nav-file-title:hover,
 .nav-folder-title:hover {
-  background-color: rgba(224, 108, 117, 0.08);
+  background-color: #140505;             /* Hover in Subtle Surface Container */
   border-radius: var(--radius-xl);
 }
 
-/* Floating Action Button Style */
-.side-dock-ribbon-action {
-  border-radius: 12px !important;
-  transition: all 0.2s ease;
+/* Dashboard Cards & Callouts */
+.markdown-rendered .callout,
+.custom-dashboard-card,
+.multi-column-wrapper {
+  background-color: #140505 !important;  /* All blocks use Subtle Surface Container */
+  border: 1px solid #5A5252 !important;  /* Thin Muted Border */
+  border-radius: var(--radius-m);
 }
 
-.side-dock-ribbon-action.is-active {
-  background-color: #E06C75 !important;
-  color: #181818 !important;
-}
-
-/* Tab Styling (Muted Crimson Indicators) */
+/* Active Tab Styling */
 .workspace-tab-header {
   border-radius: 10px 10px 0 0;
   margin-right: 4px;
-  background-color: #242424;
-  color: #5A5A5A;
+  background-color: #140505;
 }
 
 .workspace-tab-header.is-active {
-  background-color: #181818;
-  color: #E06C75;
-  border-bottom: 2px solid #E06C75;
+  background-color: #000000;
+  color: #D60000;
+  border-bottom: 2px solid #D60000;       /* Active Tab Underscore */
+}
+
+/* Specialized Plugins: Calendar */
+.calendar-container {
+  background-color: #000000 !important;  /* Absolute Deep Background */
+}
+
+.calendar .day.is-selected,
+.calendar .day.is-active {
+  background-color: #D60000 !important;  /* Crimson Marker */
+  color: #000000 !important;             /* High contrast on active day */
+  border-radius: 4px;
+}
+
+.calendar .day,
+.calendar .week-header {
+  color: #5A5252;                        /* Standard days and headers in Muted Grey */
 }
 
 /* Typography Enhancements */
@@ -111,33 +143,33 @@
 
 .markdown-rendered {
   line-height: 1.7;
-  color: #E5E5E5;
+  color: #C5B8B8;                        /* Main body text in Ash Grey */
 }
 
-/* Code Blocks & Pre (Surface Contrast) */
+/* Code Blocks & Pre */
 pre {
-  background-color: #242424 !important;
-  border: 1px solid #5A5A5A;
+  background-color: #140505 !important;
+  border: 1px solid #5A5252;
   border-radius: 12px !important;
   padding: 16px !important;
 }
 
 /* Blockquotes */
 .markdown-rendered blockquote {
-  border-left: 4px solid #E06C75;
-  background-color: #242424;
+  border-left: 4px solid #D60000;
+  background-color: #140505;
   border-radius: 0 12px 12px 0;
   margin: 1.5em 0;
   padding: 16px 24px;
-  color: #E5E5E5;
+  color: #C5B8B8;
   font-style: italic;
 }
 
-/* Search Bars (Material Pill) */
+/* Search Bars */
 .search-bar {
   border-radius: 20px !important;
-  background-color: #242424 !important;
-  border: 1px solid #5A5A5A !important;
+  background-color: #140505 !important;
+  border: 1px solid #5A5252 !important;
   padding: 4px 12px !important;
-  color: #E5E5E5 !important;
+  color: #C5B8B8 !important;
 }

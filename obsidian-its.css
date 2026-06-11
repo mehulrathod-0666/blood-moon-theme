@@ -441,8 +441,8 @@ settings:
 		id: vault-name-color
 		type: variable-themed-color
 		format: hex
-		default-dark: '#E06C75'
-		default-light: '#E06C75'
+		default-dark: '#D60000'
+		default-light: '#D60000'
     -
         title: Hide Vault Title
         id: vault-title-none
@@ -692,21 +692,21 @@ settings:
         id: bold-color
         type: variable-themed-color
         format: hex
-        default-dark: '#E5E5E5'
+        default-dark: '#C5B8B8'
         default-light: '#697580'
     -
         title: Italic Color
         id: italic-color
         type: variable-themed-color
         format: hex
-        default-dark: '#E5E5E5'
+        default-dark: '#C5B8B8'
         default-light: '#697580'
     -
         title: Strikethrough Text Color
         id: strikethrough-color
         type: variable-themed-color
         format: hex
-        default-dark: '#E5E5E5'
+        default-dark: '#C5B8B8'
         default-light: '#697580'
     -
         title: Strikethrough Line
@@ -722,7 +722,7 @@ settings:
         id: strikethrough-line-color
         type: variable-themed-color
         format: hex
-        default-dark: '#E5E5E5'
+        default-dark: '#C5B8B8'
         default-light: '#697580'
     -
         title: Images
@@ -1096,43 +1096,43 @@ settings:
 		id: h1-color
 		type: variable-themed-color
 		format: hex
-		default-dark: '#E06C75'
-		default-light: '#E06C75'
+		default-dark: '#D60000'
+		default-light: '#D60000'
 	-
 		title: Heading 2 Color
 		id: h2-color
 		type: variable-themed-color
 		format: hex
-		default-dark: '#E06C75'
-		default-light: '#E06C75'
+		default-dark: '#D60000'
+		default-light: '#D60000'
 	-
 		title: Heading 3 Color
 		id: h3-color
 		type: variable-themed-color
 		format: hex
-		default-dark: '#E06C75'
-		default-light: '#E06C75'
+		default-dark: '#D60000'
+		default-light: '#D60000'
 	-
 		title: Heading 4 Color
 		id: h4-color
 		type: variable-themed-color
 		format: hex
-		default-dark: '#E06C75'
-		default-light: '#E06C75'
+		default-dark: '#D60000'
+		default-light: '#D60000'
 	-
 		title: Heading 5 Color
 		id: h5-color
 		type: variable-themed-color
 		format: hex
-		default-dark: '#E06C75'
-		default-light: '#E06C75'
+		default-dark: '#D60000'
+		default-light: '#D60000'
 	-
 		title: Heading 6 Color
 		id: h6-color
 		type: variable-themed-color
 		format: hex
-		default-dark: '#E06C75'
-		default-light: '#E06C75'
+		default-dark: '#D60000'
+		default-light: '#D60000'
     -
 		title: Header Alignment
 		id: ITS-Header-Alignment
@@ -1414,8 +1414,8 @@ settings:
 		id: h2-border-line-color
 		type: variable-themed-color
 		format: hex
-		default-dark: '#E06C75'
-		default-light: '#E06C75'
+		default-dark: '#D60000'
+		default-light: '#D60000'
 	-
 		title: Heading 3 Line Color
 		id: h3-border-line-color
@@ -2074,7 +2074,7 @@ settings:
         id: text
         type: variable-themed-color
         format: hex
-        default-dark: '#E5E5E5'
+        default-dark: '#C5B8B8'
         default-light: '#697580'
     - 
         title: Soft Text
@@ -2088,8 +2088,8 @@ settings:
         id: text-faint
         type: variable-themed-color
         format: hex
-        default-dark: '#5A5A5A'
-        default-light: '#5A5A5A'
+        default-dark: '#5A5252'
+        default-light: '#5A5252'
     - 
         title: File Explorer Titles
         description: File/Folder text color.
@@ -2105,14 +2105,14 @@ settings:
         type: variable-themed-color
         format: hex
         default-dark: '#bf5e5e'
-        default-light: '#E06C75'
+        default-light: '#D60000'
     -
         title: "Math Text Color"
         description: "Mathjax/Latex color change"
         id: latex-color
         type: variable-themed-color
         format: hex
-        default-dark: '#e06c75'
+        default-dark: '#D60000'
         default-light: '#a35158'
     -
         title: Workspace
@@ -2127,7 +2127,7 @@ settings:
         id: note
         type: variable-themed-color
         format: hex
-        default-dark: '#181818'
+        default-dark: '#000000'
         default-light: '#f8fbff'
     - 
         title: Outer Sidebar
@@ -2142,7 +2142,7 @@ settings:
         id: side-bar
         type: variable-themed-color
         format: hex
-        default-dark: '#181818'
+        default-dark: '#000000'
         default-light: '#f8fbff'
     - 
         title: Dark Sidebar
@@ -2184,7 +2184,7 @@ settings:
         id: file-icon-color
         type: variable-themed-color
         format: hex
-        default-dark: '#5A5A5A'
+        default-dark: '#5A5252'
         default-light: '#a6bbde'
     - 
         title: Folder Icon
@@ -2193,7 +2193,7 @@ settings:
         type: variable-themed-color
         format: hex
         default-dark: '#883737'
-        default-light: '#E06C75'
+        default-light: '#D60000'
     - 
         title: Folder Icon Open
         description: Open folder icon color.
@@ -2209,7 +2209,7 @@ settings:
         type: variable-themed-color
         format: hex
         opacity: true
-        default-dark: '#E06C75'
+        default-dark: '#D60000'
         default-light: 'rgba(134, 173, 218, 0.157)'
     -
         title: Tab Stack Shadow
@@ -2224,7 +2224,7 @@ settings:
         id: popover-background
         type: variable-themed-color
         format: hex
-        default-dark: '#181818'
+        default-dark: '#000000'
         default-light: '#f8fbff'
     -
         title: Note Elements
@@ -2243,7 +2243,7 @@ settings:
         id: headers
         type: variable-themed-color
         format: hex
-        default-dark: '#E06C75'
+        default-dark: '#D60000'
         default-light: '#d04e4e'
     -
         title: Tags
@@ -2275,14 +2275,14 @@ settings:
         type: variable-themed-color
         format: hex
         default-dark: '#883737'
-        default-light: '#E06C75'
+        default-light: '#D60000'
     - 
         title: Number Color
         id: list-numbered-color
         type: variable-themed-color
         format: hex
         default-dark: '#883737'
-        default-light: '#E06C75'
+        default-light: '#D60000'
     -
         title: List Line Color
         id: indentation-guide-color
@@ -2309,7 +2309,7 @@ settings:
         id: blockquote-border-color
         type: variable-themed-color
         format: hex
-        default-dark: '#242424'
+        default-dark: '#140505'
         default-light: '#dde4ef'
     -
         title: Code
@@ -2321,7 +2321,7 @@ settings:
         id: code-bg
         type: variable-themed-color
         format: hex
-        default-dark: '#242424'
+        default-dark: '#140505'
         default-light: '#eef6ff'
     - 
         title: Code Text
@@ -2348,7 +2348,7 @@ settings:
         type: variable-themed-color
         format: hex
         default-dark: '#883737'
-        default-light: '#E06C75'
+        default-light: '#D60000'
     -
         title: Progress Bar
         id: ITS-Colors-Progress-Bar
@@ -2360,7 +2360,7 @@ settings:
         id: progress
         type: variable-themed-color
 		format: hex
-		default-dark: '#E06C75'
+		default-dark: '#D60000'
 		default-light: '#912e2e'
     -
         title: Progress Bar Background Color
@@ -2368,7 +2368,7 @@ settings:
         id: progress-bg
         type: variable-themed-color
 		format: hex
-		default-dark: '#242424'
+		default-dark: '#140505'
 		default-light: '#e1e9f6'
     -
         title: Tables
@@ -2380,8 +2380,8 @@ settings:
         id: th
         type: variable-themed-color
 		format: hex
-		default-dark: '#5A5A5A'
-		default-light: '#E06C75'
+		default-dark: '#5A5252'
+		default-light: '#D60000'
     -
         title: Table Header Text Color
         id: th-text
@@ -2394,7 +2394,7 @@ settings:
         id: table-header-text-color
         type: variable-themed-color
 		format: hex
-        default-dark: '#e06c75'
+        default-dark: '#D60000'
         default-light: '#a35158'	
     -
 		title: Table Alt Row Colors
@@ -2422,8 +2422,8 @@ settings:
         id: code-comment
         type: variable-themed-color
         format: hex
-        default-dark: '#5A5A5A'
-        default-light: '#5A5A5A'
+        default-dark: '#5A5252'
+        default-light: '#5A5252'
     - 
         title: Footnotes
         id: footnote
@@ -2437,7 +2437,7 @@ settings:
 		description: Aside background color and dark theme setting alternating setting item color.
 		type: variable-themed-color
 		format: hex
-		default-dark: '#242424'
+		default-dark: '#140505'
 		default-light: '#f1f5ff'
     -
         title: Other
@@ -2451,13 +2451,13 @@ settings:
         type: variable-themed-color
         format: hex
         default-dark: '#883737'
-        default-light: '#E06C75'
+        default-light: '#D60000'
     - 
         title: Lite Accent
         id: lite-accent
         type: variable-themed-color
         format: hex
-        default-dark: '#e06c75'
+        default-dark: '#D60000'
         default-light: '#a35158'
     - 
         title: Accent 2
@@ -2479,14 +2479,14 @@ settings:
         id: dark-accent
         type: variable-themed-color
         format: hex
-        default-dark: '#5A5A5A'
+        default-dark: '#5A5252'
         default-light: '#c35c5c'
     -
         title: Deep Dark Accent
         id: deep-dark-accent
         type: variable-themed-color
         format: hex
-        default-dark: '#5A5A5A'
+        default-dark: '#5A5252'
         default-light: '#2f1010'
     -
         title: Inactive
@@ -2494,7 +2494,7 @@ settings:
         id: inactive
         type: variable-themed-color
         format: hex
-        default-dark: '#5A5A5A'
+        default-dark: '#5A5252'
         default-light: '#a6bbde'
     -
         title: Background
@@ -2502,7 +2502,7 @@ settings:
         id: bg
         type: variable-themed-color
         format: hex
-        default-dark: '#242424'
+        default-dark: '#140505'
         default-light: '#dde4ef'
     -
         title: Lines
@@ -2517,7 +2517,7 @@ settings:
 		id: outline
 		type: variable-themed-color
 		format: hex
-		default-dark: '#E5E5E5'
+		default-dark: '#C5B8B8'
 		default-light: '#912e2e'
     -
 		title: Foreground
@@ -2525,7 +2525,7 @@ settings:
 		id: fg
 		type: variable-themed-color
 		format: hex
-		default-dark: '#E5E5E5'
+		default-dark: '#C5B8B8'
 		default-light: '#912e2e'
     -
 		title: Rainbows
@@ -2552,7 +2552,7 @@ settings:
 		id: theme-rainbow-2
 		type: variable-themed-color
 		format: hex
-		default-dark: '#5A5A5A'
+		default-dark: '#5A5252'
 		default-light: '#a53f3f'
 	-
 		title: Theme Rainbow 3
@@ -2599,7 +2599,7 @@ settings:
 		id: theme-rainbow-2
 		type: variable-themed-color
 		format: hex
-		default-dark: '#5A5A5A'
+		default-dark: '#5A5252'
 		default-light: '#f1ab27'
 	-
 		title: Rainbow 3
@@ -2706,7 +2706,7 @@ settings:
         id: graph-bg
         type: variable-themed-color
         format: hex
-        default-dark: '#181818'
+        default-dark: '#000000'
         default-light: '#eef3fd'
     - 
         title: Graph Lines
@@ -2720,8 +2720,8 @@ settings:
         id: graph-node
         type: variable-themed-color
         format: hex
-        default-dark: '#E5E5E5'
-        default-light: '#E06C75'
+        default-dark: '#C5B8B8'
+        default-light: '#D60000'
     -
         title: Graph Current Node
         id: graph-focused
@@ -2735,14 +2735,14 @@ settings:
         id: graph-img
         type: variable-themed-color
         format: hex
-        default-dark: '#E06C75'
-        default-light: '#E06C75'
+        default-dark: '#D60000'
+        default-light: '#D60000'
     -
         title: Graph Tags
         id: graph-tag
         type: variable-themed-color
         format: hex
-        default-dark: '#E06C75'
+        default-dark: '#D60000'
         default-light: '#000000'
     -
         title: Plugins
@@ -3008,52 +3008,52 @@ body,
 }
 
 .theme-dark {
-  --deep-dark-accent: #5A5A5A;
-  --dark-accent: #5A5A5A;
-  --lite-accent: #E06C75;
-  --accent: #E06C75;
+  --deep-dark-accent: #5A5252;
+  --dark-accent: #5A5252;
+  --lite-accent: #D60000;
+  --accent: #D60000;
   --accent2: #a00000;
   --accent2-lite: #cc0000;
   --accent-color: 134, 55, 55;
   --side-bar: var(--note);
   --side-bar-bg: var(--outer-bar);
-  --outer-bar: #181818;
-  --dark-sidebar: #181818;
+  --outer-bar: #000000;
+  --dark-sidebar: #000000;
   --bttn: var(--dark-accent);
   --input-bg: rgba(0, 0, 0, 0.3);
   --hvr: rgba(168, 60, 60, 0.4);
   --hvr2: var(--highlight);
   --hvr-active: rgba(212, 47, 47, 0.4);
   --highlight: #7a141466;
-  --bg: #242424;
-  --fg: #E5E5E5;
+  --bg: #140505;
+  --fg: #C5B8B8;
   --success-bg: #32603e;
   --failure-bg: #772d2d;
-  --inactive: #5A5A5A;
+  --inactive: #5A5252;
   --outline: var(--outer-bar);
   --folder: var(--accent);
   --folder-open: #e05858;
-  --file-icon-color: #5A5A5A;
+  --file-icon-color: #5A5252;
   --file-icon-color: var(--inactive);
   --lines: var(--hr);
-  --note: #181818;
+  --note: #000000;
   --note-rgb: 5, 0, 7;
-  --text: #E5E5E5;
-  --headers: #E06C75;
-  --soft-text: #5A5A5A;
-  --faint-text: #5A5A5A;
+  --text: #C5B8B8;
+  --headers: #D60000;
+  --soft-text: #5A5252;
+  --faint-text: #5A5252;
   --code-text: #fa4545;
-  --footnote: #5A5A5A;
-  --code-bg: #242424;
+  --footnote: #5A5252;
+  --code-bg: #140505;
   --embed-bg: var(--dark-sidebar);
-  --aside-bg: #242424;
+  --aside-bg: #140505;
   --th: var(--dark-accent);
   --th-text: var(--text-dl);
   --td: #06080c60;
   --drop-shadow: #06080c60;
   --tag: var(--dark-accent);
   --tag-text: #d04e4e;
-  --table: #242424;
+  --table: #140505;
   --hr: #2d0008;
   --i-at: #bf5e5e;
   --progress: var(--accent);
@@ -3062,18 +3062,18 @@ body,
   --graph-lines: var(--dark-accent);
   --graph-node: var(--text);
   --graph-fill: var(--headers);
-  --graph-404: #5A5A5A;
-  --graph-img: #E06C75;
+  --graph-404: #5A5252;
+  --graph-img: #D60000;
   --graph-tag: var(--headers);
   --graph-focused: var(--accent2-lite);
   --theme-rainbow-1: #7c2929;
-  --theme-rainbow-2: #5A5A5A;
+  --theme-rainbow-2: #5A5252;
   --theme-rainbow-3: #471d1d;
   --theme-rainbow-4: #381919;
   --theme-rainbow-5: #424c61;
   --theme-rainbow-6: #2e333d;
   --rainbow-1: #b03a3a;
-  --rainbow-2: #5A5A5A;
+  --rainbow-2: #5A5252;
   --rainbow-3: #207a20;
   --rainbow-4: #3232c5;
   --rainbow-5: #7f307f;
@@ -3112,8 +3112,8 @@ body,
   --note: #f8fbff;
   --note-rgb: 248, 251, 255;
   --text: #30353a;
-  --headers: #E06C75;
-  --faint-text: #5A5A5A;
+  --headers: #D60000;
+  --faint-text: #5A5252;
   --soft-text: #697580;
   --code-text: #ea4262;
   --footnote: #8996a0;
@@ -3135,8 +3135,8 @@ body,
   --graph-lines: #e4e7f8;
   --graph-node: var(--headers);
   --graph-fill: var(--folder);
-  --graph-404: #5A5A5A;
-  --graph-img: #E06C75;
+  --graph-404: #5A5252;
+  --graph-img: #D60000;
   --graph-tag: #000000;
   --graph-focused: var(--text-highlight-bg-active);
   --theme-rainbow-1: #bb5555;
@@ -11812,7 +11812,7 @@ iframe {
 
 .titlebar-bubbles.titlebar-bubbles.titlebar-bubbles {
   --tab-outline-width: 0;
-  --titlebar-bubble-colors: #181818;
+  --titlebar-bubble-colors: #000000;
   --titlebar-bubble-colors-inactive: var(--td);
   --tab-text-color-focused-active: var(--text);
   --tab-text-color-hover: var(--text);
@@ -13080,14 +13080,14 @@ body.background-image .markdown-embed-content .markdown-preview-section:not(.kan
   --outer-bar: #0e0f15;
   --dark-sidebar: #10161d;
   --side-bar: var(--note);
-  --note: #181818;
+  --note: #000000;
   --note-rgb: 5, 0, 7;
   --accent-color: 57, 77, 100;
   --accent: #394d64;
   --lite-accent: #6ca6e0;
   --dark-accent: #293e64;
   --deep-dark-accent: #1f283b;
-  --accent2: #E06C75;
+  --accent2: #D60000;
   --accent2-lite: #4c87cc;
   --headers: #2b71cd;
   --text: #AAB3CA;
@@ -13097,7 +13097,7 @@ body.background-image .markdown-embed-content .markdown-preview-section:not(.kan
   --footnote: #6e7e89;
   --folder-open: #386ab6;
   --file-icon-color: #63748d;
-  --code-bg: #242424;
+  --code-bg: #140505;
   --tag: var(--dark-accent);
   --th: var(--dark-accent);
   --td: #030a1495;
@@ -13122,7 +13122,7 @@ body.background-image .markdown-embed-content .markdown-preview-section:not(.kan
   --lite-accent: #5174a3;
   --dark-accent: #517cbf;
   --deep-dark-accent: #101b2f;
-  --accent2: #E06C75;
+  --accent2: #D60000;
   --accent2-lite: #5599d0;
   --headers: #4378c1;
   --text: #283a67;
@@ -13198,11 +13198,11 @@ body.background-image .markdown-embed-content .markdown-preview-section:not(.kan
 
 .theme-dark.wotc-beyond, .theme-dark .wotc-beyond {
   --outline: #0000008c;
-  --headers: #E06C75;
+  --headers: #D60000;
   --code-text: #fa4545;
   --tag-text: #d04e4e;
-  --dark-accent: #5A5A5A;
-  --accent: #E06C75;
+  --dark-accent: #5A5252;
+  --accent: #D60000;
   --i-at: #bf5e5e;
   --folder: var(--accent);
   --hr-image: url("data:image/svg+xml,%3Csvg width='100%25' height='100%25' viewBox='0 0 100 7' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xml:space='preserve' xmlns:serif='http://www.serif.com/' style='fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;'%3E%3Crect id='Artboard1' x='0' y='0' width='100' height='7' style='fill:none;'/%3E%3Cpath d='M50,2.5L100,3.5L50,4L0,3.5L50,2.5Z' style='fill:rgb(146, 47, 47);'/%3E%3C/svg%3E") no-repeat center center;
@@ -13226,7 +13226,7 @@ body.background-image .markdown-embed-content .markdown-preview-section:not(.kan
   --deep-dark-accent: #2e1010;
   --accent2: #000000;
   --accent2-lite: #df6262;
-  --headers: #E06C75;
+  --headers: #D60000;
   --text: #412f2f;
   --code-text: #681010;
   --inactive: #e2b7a3;
@@ -13306,7 +13306,7 @@ body:not(.wotc-beyond) .wotc-beyond:is(.markdown-source-view,
   --outer-bar: #0e0f15;
   --dark-sidebar: #1c2f2b;
   --side-bar: var(--note);
-  --note: #181818;
+  --note: #000000;
   --accent-color: 84, 139, 103;
   --accent: #548b67;
   --lite-accent: #45b480;
@@ -13380,7 +13380,7 @@ body:not(.wotc-beyond) .wotc-beyond:is(.markdown-source-view,
   --graph-lines: #e4e7f8;
   --graph-node: var(--headers);
   --graph-fill: #2e5db2;
-  --graph-404: #5A5A5A;
+  --graph-404: #5A5252;
   --graph-img: var(--accent2);
   --graph-tag: #000000;
   --theme-rainbow-1: var(--accent);
@@ -13441,9 +13441,9 @@ body:not(.wotc-beyond) .wotc-beyond:is(.markdown-source-view,
 }
 
 .theme-dark .pathfinder, .theme-dark.pathfinder, .theme-dark .pathfinder-remaster, .theme-dark.pathfinder-remaster {
-  --accent: #E06C75;
-  --lite-accent: #E06C75;
-  --dark-accent: #5A5A5A;
+  --accent: #D60000;
+  --lite-accent: #D60000;
+  --dark-accent: #5A5252;
   --headers: #ddaf78;
   --h1-color: var(--headers);
   --h2-color: #2f4f87;
@@ -13458,7 +13458,7 @@ body:not(.wotc-beyond) .wotc-beyond:is(.markdown-source-view,
   --hr: #8b262d;
   --header-border-line-color: var(--dark-accent);
   --graph-bg: var(--embed-bg);
-  --graph-lines: #5A5A5A90;
+  --graph-lines: #5A525290;
   --graph-node: var(--theme-rainbow-1);
   --graph-tag: var(--theme-rainbow-3);
   --graph-img: var(--theme-rainbow-2);
@@ -13620,7 +13620,7 @@ body:not(.wotc-beyond) .wotc-beyond:is(.markdown-source-view,
   --outer-bar: var(--note);
   --dark-sidebar: var(--note);
   --side-bar: var(--note);
-  --note: #181818;
+  --note: #000000;
   --note-rgb: 5, 0, 7;
   --accent-color: ;
   --accent: #546078;
@@ -13631,9 +13631,9 @@ body:not(.wotc-beyond) .wotc-beyond:is(.markdown-source-view,
   --headers: var(--text);
   --code-text: var(--text);
   --i-at: var(--text-faint);
-  --inactive: #5A5A5A;
+  --inactive: #5A5252;
   --tag-text: var(--accent2-lite);
-  --code-bg: #242424;
+  --code-bg: #140505;
   --aside-bg: var(--note);
   --embed-bg: var(--note);
   --tag: var(--note);
@@ -13642,7 +13642,7 @@ body:not(.wotc-beyond) .wotc-beyond:is(.markdown-source-view,
   --th: var(--note);
   --td: #06080c50;
   --table: var(--bg);
-  --outline: #181818;
+  --outline: #000000;
   --highlight: rgba(81, 100, 122, 0.6);
   --hvr: rgba(87, 113, 156, 0.4);
   --hvr-active: rgba(101, 124, 156, 0.4);
@@ -13650,7 +13650,7 @@ body:not(.wotc-beyond) .wotc-beyond:is(.markdown-source-view,
   --graph-lines: #363c4950;
   --graph-node: var(--fg);
   --graph-fill: var(--headers);
-  --graph-404: #5A5A5A;
+  --graph-404: #5A5252;
   --graph-img: #6b90ad;
   --graph-tag: black;
   --graph-focused: var(--text-highlight-bg-active);
@@ -13695,7 +13695,7 @@ body:not(.wotc-beyond) .wotc-beyond:is(.markdown-source-view,
   --graph-lines: #e5e9f3;
   --graph-node: var(--text);
   --graph-fill: var(--headers);
-  --graph-404: #5A5A5A9c;
+  --graph-404: #5A52529c;
   --graph-img: #8ec1e9;
   --graph-tag: var(--accent2-lite);
   --graph-focused: #b6c9f1;
@@ -13714,8 +13714,8 @@ body:not(.wotc-beyond) .wotc-beyond:is(.markdown-source-view,
 }
 
 .theme-dark.drwn, .theme-dark .drwn {
-  --outer-bar: #181818;
-  --note: #181818;
+  --outer-bar: #000000;
+  --note: #000000;
   --accent-color: 55, 136, 118;
   --accent: #378876;
   --lite-accent: #6CE0D3;
@@ -13724,7 +13724,7 @@ body:not(.wotc-beyond) .wotc-beyond:is(.markdown-source-view,
   --accent2: #5cb2d6;
   --accent2-lite: #49d8e2;
   --headers: #399F94;
-  --text: #E5E5E5;
+  --text: #C5B8B8;
   --code-text: #72cdd0;
   --i-at: #5EBFA9;
   --inactive: #2b5b77;
@@ -14046,12 +14046,12 @@ body:not(.wotc-beyond) .wotc-beyond:is(.markdown-source-view,
   --soft-text: #aab3ca;
   --code-text: #e6a210;
   --i-at: var(--lite-accent);
-  --inactive: #5A5A5A;
+  --inactive: #5A5252;
   --folder: var(--headers);
   --folder-open: var(--lite-accent);
   --fg: white;
   --bg: #232a34;
-  --code-bg: #242424;
+  --code-bg: #140505;
   --embed-bg: #12151a;
   --tag: #273346;
   --th: var(--dark-accent);
@@ -14102,7 +14102,7 @@ body:not(.wotc-beyond) .wotc-beyond:is(.markdown-source-view,
   --hr: #d6deea;
   --latex-color: #5895fa;
   --latex-format-color: #9ed3ff;
-  --latex-syntax-color: #E06C75;
+  --latex-syntax-color: #D60000;
   --header-solve: #a87643;
   --answer: #4f904f;
   --answer-bg: #dbe8e2;
@@ -14113,8 +14113,8 @@ body:not(.wotc-beyond) .wotc-beyond:is(.markdown-source-view,
   --graph-lines: #ecedf8;
   --graph-node: var(--headers);
   --graph-fill: #2e5db2;
-  --graph-404: #5A5A5A;
-  --graph-img: #E06C75;
+  --graph-404: #5A5252;
+  --graph-img: #D60000;
   --graph-tag: #000000;
   --graph-focused: var(--lite-accent);
   --theme-rainbow-1: var(--accent2);
@@ -14156,9 +14156,9 @@ body:not(.wotc-beyond) .wotc-beyond:is(.markdown-source-view,
 }
 
 .theme-dark.t-d, .theme-dark .t-d {
-  --outer-bar: #181818;
+  --outer-bar: #000000;
   --side-bar: var(--note);
-  --note: #181818;
+  --note: #000000;
   --accent-color: 223, 123, 65;
   --accent: #DF7B41;
   --lite-accent: #C48A69;
@@ -14167,7 +14167,7 @@ body:not(.wotc-beyond) .wotc-beyond:is(.markdown-source-view,
   --accent2: #8F3F2B;
   --accent2-lite: #E57858;
   --headers: #DF7B41;
-  --text: #E5E5E5;
+  --text: #C5B8B8;
   --code-text: #FA8A45;
   --i-at: #BF7F5E;
   --folder-open: #D8AF97;
@@ -14546,52 +14546,52 @@ body:not(.wotc-beyond) .wotc-beyond:is(.markdown-source-view,
 }
 
 .theme-dark.its, .theme-dark .its {
-  --deep-dark-accent: #5A5A5A;
-  --dark-accent: #5A5A5A;
-  --lite-accent: #E06C75;
-  --accent: #E06C75;
+  --deep-dark-accent: #5A5252;
+  --dark-accent: #5A5252;
+  --lite-accent: #D60000;
+  --accent: #D60000;
   --accent2: #a00000;
   --accent2-lite: #cc0000;
   --accent-color: 134, 55, 55;
   --side-bar: var(--note);
   --side-bar-bg: var(--outer-bar);
-  --outer-bar: #181818;
-  --dark-sidebar: #181818;
+  --outer-bar: #000000;
+  --dark-sidebar: #000000;
   --bttn: var(--dark-accent);
   --input-bg: rgba(0, 0, 0, 0.3);
   --hvr: rgba(168, 60, 60, 0.4);
   --hvr2: var(--highlight);
   --hvr-active: rgba(212, 47, 47, 0.4);
   --highlight: #7a141466;
-  --bg: #242424;
-  --fg: #E5E5E5;
+  --bg: #140505;
+  --fg: #C5B8B8;
   --success-bg: #32603e;
   --failure-bg: #772d2d;
-  --inactive: #5A5A5A;
+  --inactive: #5A5252;
   --outline: var(--outer-bar);
   --folder: var(--accent);
   --folder-open: #e05858;
-  --file-icon-color: #5A5A5A;
+  --file-icon-color: #5A5252;
   --file-icon-color: var(--inactive);
   --lines: var(--hr);
-  --note: #181818;
+  --note: #000000;
   --note-rgb: 5, 0, 7;
-  --text: #E5E5E5;
-  --headers: #E06C75;
-  --soft-text: #5A5A5A;
-  --faint-text: #5A5A5A;
+  --text: #C5B8B8;
+  --headers: #D60000;
+  --soft-text: #5A5252;
+  --faint-text: #5A5252;
   --code-text: #fa4545;
-  --footnote: #5A5A5A;
-  --code-bg: #242424;
+  --footnote: #5A5252;
+  --code-bg: #140505;
   --embed-bg: var(--dark-sidebar);
-  --aside-bg: #242424;
+  --aside-bg: #140505;
   --th: var(--dark-accent);
   --th-text: var(--text-dl);
   --td: #06080c60;
   --drop-shadow: #06080c60;
   --tag: var(--dark-accent);
   --tag-text: #d04e4e;
-  --table: #242424;
+  --table: #140505;
   --hr: #2d0008;
   --i-at: #bf5e5e;
   --progress: var(--accent);
@@ -14600,12 +14600,12 @@ body:not(.wotc-beyond) .wotc-beyond:is(.markdown-source-view,
   --graph-lines: hsla(var(--interactive-accent-hsl), .2);
   --graph-node: var(--text);
   --graph-fill: var(--headers);
-  --graph-404: #5A5A5A;
-  --graph-img: #E06C75;
+  --graph-404: #5A5252;
+  --graph-img: #D60000;
   --graph-tag: var(--headers);
   --graph-focused: var(--text-highlight-bg-active);
   --theme-rainbow-1: #7c2929;
-  --theme-rainbow-2: #5A5A5A;
+  --theme-rainbow-2: #5A5252;
   --theme-rainbow-3: #471d1d;
   --theme-rainbow-4: #381919;
   --theme-rainbow-5: #424c61;
@@ -14644,8 +14644,8 @@ body:not(.wotc-beyond) .wotc-beyond:is(.markdown-source-view,
   --note: #f8fbff;
   --note-rgb: 248, 251, 255;
   --text: #30353a;
-  --headers: #E06C75;
-  --faint-text: #5A5A5A;
+  --headers: #D60000;
+  --faint-text: #5A5252;
   --soft-text: #697580;
   --code-text: #ea4262;
   --footnote: #8996a0;
@@ -14667,8 +14667,8 @@ body:not(.wotc-beyond) .wotc-beyond:is(.markdown-source-view,
   --graph-lines: #e4e7f8;
   --graph-node: var(--headers);
   --graph-fill: var(--folder);
-  --graph-404: #5A5A5A;
-  --graph-img: #E06C75;
+  --graph-404: #5A5252;
+  --graph-img: #D60000;
   --graph-tag: #000000;
   --graph-focused: var(--text-highlight-bg-active);
   --theme-rainbow-1: #bb5555;
