@@ -1428,14 +1428,14 @@ settings:
 		id: h4-border-line-color
 		type: variable-themed-color
 		format: hex
-		default-dark: '#61afef'
+		default-dark: '#cc0000'
 		default-light: '#5599d0'
 	-
 		title: Heading 5 Line Color
 		id: h5-border-line-color
 		type: variable-themed-color
 		format: hex
-		default-dark: '#2f3b4d'
+		default-dark: '#2d0008'
 		default-light: '#b5c2d8'
 	-
 		title: Heading 6 Line Color
@@ -2088,8 +2088,8 @@ settings:
         id: text-faint
         type: variable-themed-color
         format: hex
-        default-dark: '#4e5b6f'
-        default-light: '#4e5b6f'
+        default-dark: '#4a0303'
+        default-light: '#4a0303'
     - 
         title: File Explorer Titles
         description: File/Folder text color.
@@ -2184,7 +2184,7 @@ settings:
         id: file-icon-color
         type: variable-themed-color
         format: hex
-        default-dark: '#586477'
+        default-dark: '#8b0409'
         default-light: '#a6bbde'
     - 
         title: Folder Icon
@@ -2309,7 +2309,7 @@ settings:
         id: blockquote-border-color
         type: variable-themed-color
         format: hex
-        default-dark: '#252c36'
+        default-dark: '#1a0002'
         default-light: '#dde4ef'
     -
         title: Code
@@ -2321,7 +2321,7 @@ settings:
         id: code-bg
         type: variable-themed-color
         format: hex
-        default-dark: '#232831'
+        default-dark: '#1a0002'
         default-light: '#eef6ff'
     - 
         title: Code Text
@@ -2368,7 +2368,7 @@ settings:
         id: progress-bg
         type: variable-themed-color
 		format: hex
-		default-dark: '#252c36'
+		default-dark: '#1a0002'
 		default-light: '#e1e9f6'
     -
         title: Tables
@@ -2422,8 +2422,8 @@ settings:
         id: code-comment
         type: variable-themed-color
         format: hex
-        default-dark: '#4e5b6f'
-        default-light: '#4e5b6f'
+        default-dark: '#4a0303'
+        default-light: '#4a0303'
     - 
         title: Footnotes
         id: footnote
@@ -2437,7 +2437,7 @@ settings:
 		description: Aside background color and dark theme setting alternating setting item color.
 		type: variable-themed-color
 		format: hex
-		default-dark: '#11151d'
+		default-dark: '#1a0002'
 		default-light: '#f1f5ff'
     -
         title: Other
@@ -2472,7 +2472,7 @@ settings:
         id: accent2-lite
         type: variable-themed-color
         format: hex
-        default-dark: '#61afef'
+        default-dark: '#cc0000'
         default-light: '#5599d0'
     -
         title: Dark Accent
@@ -2494,7 +2494,7 @@ settings:
         id: inactive
         type: variable-themed-color
         format: hex
-        default-dark: '#586477'
+        default-dark: '#8b0409'
         default-light: '#a6bbde'
     -
         title: Background
@@ -2502,7 +2502,7 @@ settings:
         id: bg
         type: variable-themed-color
         format: hex
-        default-dark: '#252c36'
+        default-dark: '#1a0002'
         default-light: '#dde4ef'
     -
         title: Lines
@@ -2517,7 +2517,7 @@ settings:
 		id: outline
 		type: variable-themed-color
 		format: hex
-		default-dark: '#cfd7dd'
+		default-dark: '#e6c4c0'
 		default-light: '#912e2e'
     -
 		title: Foreground
@@ -2525,7 +2525,7 @@ settings:
 		id: fg
 		type: variable-themed-color
 		format: hex
-		default-dark: '#cfd7dd'
+		default-dark: '#e6c4c0'
 		default-light: '#912e2e'
     -
 		title: Rainbows
@@ -2720,7 +2720,7 @@ settings:
         id: graph-node
         type: variable-themed-color
         format: hex
-        default-dark: '#cfd7dd'
+        default-dark: '#e6c4c0'
         default-light: '#fc0303'
     -
         title: Graph Current Node
@@ -2735,8 +2735,8 @@ settings:
         id: graph-img
         type: variable-themed-color
         format: hex
-        default-dark: '#4c78cc'
-        default-light: '#4c78cc'
+        default-dark: '#fc0303'
+        default-light: '#fc0303'
     -
         title: Graph Tags
         id: graph-tag
@@ -3012,49 +3012,49 @@ body,
   --dark-accent: #8b0409;
   --lite-accent: #fc0303;
   --accent: #fc0303;
-  --accent2: #42536e;
-  --accent2-lite: #61afef;
+  --accent2: #a00000;
+  --accent2-lite: #cc0000;
   --accent-color: 134, 55, 55;
   --side-bar: var(--note);
   --side-bar-bg: var(--outer-bar);
   --outer-bar: #050007;
-  --dark-sidebar: #0d1014;
+  --dark-sidebar: #050007;
   --bttn: var(--dark-accent);
   --input-bg: rgba(0, 0, 0, 0.3);
   --hvr: rgba(168, 60, 60, 0.4);
   --hvr2: var(--highlight);
   --hvr-active: rgba(212, 47, 47, 0.4);
   --highlight: #7a141466;
-  --bg: #252c36;
-  --fg: #cfd7dd;
+  --bg: #1a0002;
+  --fg: #e6c4c0;
   --success-bg: #32603e;
   --failure-bg: #772d2d;
-  --inactive: #586477;
+  --inactive: #8b0409;
   --outline: var(--outer-bar);
   --folder: var(--accent);
   --folder-open: #e05858;
-  --file-icon-color: #586477;
+  --file-icon-color: #8b0409;
   --file-icon-color: var(--inactive);
   --lines: var(--hr);
   --note: #050007;
-  --note-rgb: 26, 30, 36;
+  --note-rgb: 5, 0, 7;
   --text: #e6c4c0;
   --headers: #fc0303;
-  --soft-text: #97a1b9;
-  --faint-text: #4e5b6f;
+  --soft-text: #8b0409;
+  --faint-text: #4a0303;
   --code-text: #fa4545;
-  --footnote: #63778f;
-  --code-bg: #232831;
+  --footnote: #4a0303;
+  --code-bg: #1a0002;
   --embed-bg: var(--dark-sidebar);
-  --aside-bg: #11151d;
+  --aside-bg: #1a0002;
   --th: var(--dark-accent);
   --th-text: var(--text-dl);
   --td: #06080c60;
   --drop-shadow: #06080c60;
   --tag: var(--dark-accent);
   --tag-text: #d04e4e;
-  --table: #283345;
-  --hr: #2f3b4d;
+  --table: #1a0002;
+  --hr: #2d0008;
   --i-at: #bf5e5e;
   --progress: var(--accent);
   --progress-bg: var(--bg);
@@ -3062,8 +3062,8 @@ body,
   --graph-lines: var(--dark-accent);
   --graph-node: var(--text);
   --graph-fill: var(--headers);
-  --graph-404: #727e93;
-  --graph-img: #4c78cc;
+  --graph-404: #8b0409;
+  --graph-img: #fc0303;
   --graph-tag: var(--headers);
   --graph-focused: var(--accent2-lite);
   --theme-rainbow-1: #7c2929;
@@ -3113,7 +3113,7 @@ body,
   --note-rgb: 248, 251, 255;
   --text: #30353a;
   --headers: #fc0303;
-  --faint-text: #4e5b6f;
+  --faint-text: #4a0303;
   --soft-text: #697580;
   --code-text: #ea4262;
   --footnote: #8996a0;
@@ -3135,8 +3135,8 @@ body,
   --graph-lines: #e4e7f8;
   --graph-node: var(--headers);
   --graph-fill: var(--folder);
-  --graph-404: #727e93;
-  --graph-img: #4c78cc;
+  --graph-404: #8b0409;
+  --graph-img: #fc0303;
   --graph-tag: #000000;
   --graph-focused: var(--text-highlight-bg-active);
   --theme-rainbow-1: #bb5555;
@@ -13081,13 +13081,13 @@ body.background-image .markdown-embed-content .markdown-preview-section:not(.kan
   --dark-sidebar: #10161d;
   --side-bar: var(--note);
   --note: #050007;
-  --note-rgb: 26, 30, 36;
+  --note-rgb: 5, 0, 7;
   --accent-color: 57, 77, 100;
   --accent: #394d64;
   --lite-accent: #6ca6e0;
   --dark-accent: #293e64;
   --deep-dark-accent: #1f283b;
-  --accent2: #4c78cc;
+  --accent2: #fc0303;
   --accent2-lite: #4c87cc;
   --headers: #2b71cd;
   --text: #AAB3CA;
@@ -13097,7 +13097,7 @@ body.background-image .markdown-embed-content .markdown-preview-section:not(.kan
   --footnote: #6e7e89;
   --folder-open: #386ab6;
   --file-icon-color: #63748d;
-  --code-bg: #232831;
+  --code-bg: #1a0002;
   --tag: var(--dark-accent);
   --th: var(--dark-accent);
   --td: #030a1495;
@@ -13122,7 +13122,7 @@ body.background-image .markdown-embed-content .markdown-preview-section:not(.kan
   --lite-accent: #5174a3;
   --dark-accent: #517cbf;
   --deep-dark-accent: #101b2f;
-  --accent2: #4c78cc;
+  --accent2: #fc0303;
   --accent2-lite: #5599d0;
   --headers: #4378c1;
   --text: #283a67;
@@ -13380,7 +13380,7 @@ body:not(.wotc-beyond) .wotc-beyond:is(.markdown-source-view,
   --graph-lines: #e4e7f8;
   --graph-node: var(--headers);
   --graph-fill: #2e5db2;
-  --graph-404: #727e93;
+  --graph-404: #8b0409;
   --graph-img: var(--accent2);
   --graph-tag: #000000;
   --theme-rainbow-1: var(--accent);
@@ -13621,7 +13621,7 @@ body:not(.wotc-beyond) .wotc-beyond:is(.markdown-source-view,
   --dark-sidebar: var(--note);
   --side-bar: var(--note);
   --note: #050007;
-  --note-rgb: 26, 30, 36;
+  --note-rgb: 5, 0, 7;
   --accent-color: ;
   --accent: #546078;
   --lite-accent: #aab3ca;
@@ -13631,9 +13631,9 @@ body:not(.wotc-beyond) .wotc-beyond:is(.markdown-source-view,
   --headers: var(--text);
   --code-text: var(--text);
   --i-at: var(--text-faint);
-  --inactive: #586477;
+  --inactive: #8b0409;
   --tag-text: var(--accent2-lite);
-  --code-bg: #232831;
+  --code-bg: #1a0002;
   --aside-bg: var(--note);
   --embed-bg: var(--note);
   --tag: var(--note);
@@ -13650,7 +13650,7 @@ body:not(.wotc-beyond) .wotc-beyond:is(.markdown-source-view,
   --graph-lines: #363c4950;
   --graph-node: var(--fg);
   --graph-fill: var(--headers);
-  --graph-404: #727e93;
+  --graph-404: #8b0409;
   --graph-img: #6b90ad;
   --graph-tag: black;
   --graph-focused: var(--text-highlight-bg-active);
@@ -13695,7 +13695,7 @@ body:not(.wotc-beyond) .wotc-beyond:is(.markdown-source-view,
   --graph-lines: #e5e9f3;
   --graph-node: var(--text);
   --graph-fill: var(--headers);
-  --graph-404: #727e939c;
+  --graph-404: #8b04099c;
   --graph-img: #8ec1e9;
   --graph-tag: var(--accent2-lite);
   --graph-focused: #b6c9f1;
@@ -14046,19 +14046,19 @@ body:not(.wotc-beyond) .wotc-beyond:is(.markdown-source-view,
   --soft-text: #aab3ca;
   --code-text: #e6a210;
   --i-at: var(--lite-accent);
-  --inactive: #586477;
+  --inactive: #8b0409;
   --folder: var(--headers);
   --folder-open: var(--lite-accent);
   --fg: white;
   --bg: #232a34;
-  --code-bg: #232831;
+  --code-bg: #1a0002;
   --embed-bg: #12151a;
   --tag: #273346;
   --th: var(--dark-accent);
   --table: #2f3440;
   --hr: #414b5c;
   --latex-color: #b2cfff;
-  --latex-format-color: #61afef;
+  --latex-format-color: #cc0000;
   --latex-syntax-color: #ebbd3e;
   --header-solve: #c7c7c7;
   --answer: darkseagreen;
@@ -14113,8 +14113,8 @@ body:not(.wotc-beyond) .wotc-beyond:is(.markdown-source-view,
   --graph-lines: #ecedf8;
   --graph-node: var(--headers);
   --graph-fill: #2e5db2;
-  --graph-404: #727e93;
-  --graph-img: #4c78cc;
+  --graph-404: #8b0409;
+  --graph-img: #fc0303;
   --graph-tag: #000000;
   --graph-focused: var(--lite-accent);
   --theme-rainbow-1: var(--accent2);
@@ -14351,7 +14351,7 @@ body:not(.wotc-beyond) .wotc-beyond:is(.markdown-source-view,
   --background-secondary-alt: var(--outer-bar);
   --background-modifier-border: var(--table);
   --background-modifier-form-field-highlighted: rgba(254, 160, 71, 0.427);
-  --text-selection: rgba(241, 173, 105, 0.25);
+  --text-selection: rgba(252, 3, 3, 0.3);
   --text-highlight-bg-active: rgba(255, 187, 124, 0.4);
   --text-normal: var(--text);
   --text-muted: var(--soft-text);
@@ -14406,7 +14406,7 @@ body:not(.wotc-beyond) .wotc-beyond:is(.markdown-source-view,
 .theme-light .advt {
   --background-primary: var(--note);
   --background-modifier-form-field-highlighted: rgba(249, 133, 25, 0.295);
-  --text-selection: rgba(241, 173, 105, 0.25);
+  --text-selection: rgba(252, 3, 3, 0.3);
   --text-highlight-bg-active: rgba(255, 187, 124, 0.4);
   --text-normal: var(--text);
   --text-faint: var(--soft-text);
@@ -14550,49 +14550,49 @@ body:not(.wotc-beyond) .wotc-beyond:is(.markdown-source-view,
   --dark-accent: #8b0409;
   --lite-accent: #fc0303;
   --accent: #fc0303;
-  --accent2: #42536e;
-  --accent2-lite: #61afef;
+  --accent2: #a00000;
+  --accent2-lite: #cc0000;
   --accent-color: 134, 55, 55;
   --side-bar: var(--note);
   --side-bar-bg: var(--outer-bar);
   --outer-bar: #050007;
-  --dark-sidebar: #0d1014;
+  --dark-sidebar: #050007;
   --bttn: var(--dark-accent);
   --input-bg: rgba(0, 0, 0, 0.3);
   --hvr: rgba(168, 60, 60, 0.4);
   --hvr2: var(--highlight);
   --hvr-active: rgba(212, 47, 47, 0.4);
   --highlight: #7a141466;
-  --bg: #252c36;
-  --fg: #cfd7dd;
+  --bg: #1a0002;
+  --fg: #e6c4c0;
   --success-bg: #32603e;
   --failure-bg: #772d2d;
-  --inactive: #586477;
+  --inactive: #8b0409;
   --outline: var(--outer-bar);
   --folder: var(--accent);
   --folder-open: #e05858;
-  --file-icon-color: #586477;
+  --file-icon-color: #8b0409;
   --file-icon-color: var(--inactive);
   --lines: var(--hr);
   --note: #050007;
-  --note-rgb: 26, 30, 36;
+  --note-rgb: 5, 0, 7;
   --text: #e6c4c0;
   --headers: #fc0303;
-  --soft-text: #97a1b9;
-  --faint-text: #4e5b6f;
+  --soft-text: #8b0409;
+  --faint-text: #4a0303;
   --code-text: #fa4545;
-  --footnote: #63778f;
-  --code-bg: #232831;
+  --footnote: #4a0303;
+  --code-bg: #1a0002;
   --embed-bg: var(--dark-sidebar);
-  --aside-bg: #11151d;
+  --aside-bg: #1a0002;
   --th: var(--dark-accent);
   --th-text: var(--text-dl);
   --td: #06080c60;
   --drop-shadow: #06080c60;
   --tag: var(--dark-accent);
   --tag-text: #d04e4e;
-  --table: #283345;
-  --hr: #2f3b4d;
+  --table: #1a0002;
+  --hr: #2d0008;
   --i-at: #bf5e5e;
   --progress: var(--accent);
   --progress-bg: var(--bg);
@@ -14600,8 +14600,8 @@ body:not(.wotc-beyond) .wotc-beyond:is(.markdown-source-view,
   --graph-lines: hsla(var(--interactive-accent-hsl), .2);
   --graph-node: var(--text);
   --graph-fill: var(--headers);
-  --graph-404: #727e93;
-  --graph-img: #4c78cc;
+  --graph-404: #8b0409;
+  --graph-img: #fc0303;
   --graph-tag: var(--headers);
   --graph-focused: var(--text-highlight-bg-active);
   --theme-rainbow-1: #7c2929;
@@ -14645,7 +14645,7 @@ body:not(.wotc-beyond) .wotc-beyond:is(.markdown-source-view,
   --note-rgb: 248, 251, 255;
   --text: #30353a;
   --headers: #fc0303;
-  --faint-text: #4e5b6f;
+  --faint-text: #4a0303;
   --soft-text: #697580;
   --code-text: #ea4262;
   --footnote: #8996a0;
@@ -14667,8 +14667,8 @@ body:not(.wotc-beyond) .wotc-beyond:is(.markdown-source-view,
   --graph-lines: #e4e7f8;
   --graph-node: var(--headers);
   --graph-fill: var(--folder);
-  --graph-404: #727e93;
-  --graph-img: #4c78cc;
+  --graph-404: #8b0409;
+  --graph-img: #fc0303;
   --graph-tag: #000000;
   --graph-focused: var(--text-highlight-bg-active);
   --theme-rainbow-1: #bb5555;
