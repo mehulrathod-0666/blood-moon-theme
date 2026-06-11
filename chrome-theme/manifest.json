@@ -1,27 +1,27 @@
 {
   "manifest_version": 3,
-  "version": "1.6",
-  "name": "Blood Moon Material",
-  "description": "Material Design 3 style with the Blood Moon palette.",
+  "version": "1.7",
+  "name": "Blood Moon Material Refined",
+  "description": "Material 3 inspired design with Blood Moon colors.",
   "theme": {
     "colors": {
       "frame": [5, 0, 7],
-      "frame_inactive": [26, 0, 2],
+      "frame_inactive": [14, 14, 14],
       "frame_incognito": [5, 0, 7],
-      "frame_incognito_inactive": [26, 0, 2],
-      "toolbar": [26, 0, 2],
+      "frame_incognito_inactive": [14, 14, 14],
+      "toolbar": [22, 22, 22],
       "tab_text": [230, 196, 192],
-      "tab_background_text": [139, 4, 9],
+      "tab_background_text": [166, 132, 128],
       "tab_background": [5, 0, 7],
       "bookmark_text": [230, 196, 192],
-      "ntp_background": [5, 0, 7],
+      "ntp_background": [14, 14, 14],
       "ntp_text": [230, 196, 192],
       "ntp_link": [252, 3, 3],
-      "ntp_header": [26, 0, 2],
+      "ntp_header": [22, 22, 22],
       "button_background": [252, 3, 3, 0]
     },
     "tints": {
-      "buttons": [0, 0.1, 0.5]
+      "buttons": [0, 0, 0.5]
     },
     "properties": {
       "ntp_background_alignment": "center",

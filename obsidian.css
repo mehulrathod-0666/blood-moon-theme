@@ -1,138 +1,141 @@
 /*
- * Omarchy Theme for Obsidian - Material Blood Moon Edition
+ * Omarchy Theme for Obsidian - Material Blood Moon Edition (Readability Focus)
  * Redesigned with Material 3 principles while using the Blood-Moon palette.
+ * Optimized for long-form reading.
  */
 
 .theme-dark {
-  /* --- Material 3 Core (Blood Moon Palette) --- */
-  --background-primary: #050007;        /* Surface */
-  --background-primary-alt: #1a0002;    /* Surface Container */
-  --background-secondary: #050007;      /* Surface Low */
-  --background-secondary-alt: #1a0002;  /* Surface Container High */
-  --background-modifier-border: #2d0008; /* Outline Variant */
-  --background-modifier-border-focus: #fc0303; /* Primary Outline */
+  /* --- Material 3 Core (Softened for Readability) --- */
+  --background-primary: #0e0e0e;        /* Surface - Slightly softer than pure black */
+  --background-primary-alt: #161616;    /* Surface Container */
+  --background-secondary: #0a0a0a;      /* Surface Low */
+  --background-secondary-alt: #1a1a1a;  /* Surface Container High */
+  --background-modifier-border: #2d0a0a; /* Subtle Reddish Border */
+  --background-modifier-border-focus: #fc0303; 
   
-  /* --- Text (Material Typography) --- */
+  /* --- Text (High Readability) --- */
   --text-normal: #e6c4c0;               /* On Surface */
-  --text-muted: #8b0409;                /* On Surface Variant */
+  --text-muted: #a68480;                /* Softened On Surface Variant */
   --text-faint: #4a0303;                /* Outline */
   --text-accent: #fc0303;               /* Primary */
   --text-accent-hover: #ff1a1a;
   
   /* --- Interactive (Material Shapes) --- */
-  --interactive-accent: #fc0303;        /* Primary */
+  --interactive-accent: #fc0303;        
   --interactive-accent-hover: #ff1a1a;
-  --interactive-hover: rgba(252, 3, 3, 0.08);
-  --interactive-normal: #1a0002;
+  --interactive-hover: rgba(252, 3, 3, 0.1);
+  --interactive-normal: #161616;
   
   /* --- Material Radius & Spacing --- */
   --radius-s: 8px;
   --radius-m: 12px;
   --radius-l: 16px;
-  --radius-xl: 28px; /* Material 3 Extra Large */
+  --radius-xl: 24px;
   
   /* --- Selection --- */
-  --text-selection: rgba(252, 3, 3, 0.25);
+  --text-selection: rgba(252, 3, 3, 0.3);
   
-  /* --- Headings --- */
+  /* --- Differentiated Headings --- */
   --h1-color: #fc0303;
-  --h2-color: #fc0303;
-  --h3-color: #fc0303;
-  --h4-color: #fc0303;
-  --h5-color: #fc0303;
-  --h6-color: #fc0303;
+  --h2-color: #e62020;
+  --h3-color: #cc2222;
+  --h4-color: #b32424;
+  --h5-color: #992626;
+  --h6-color: #802828;
 }
 
-/* Material 3 UI Styling */
+/* UI Elevation & Hierarchy */
 
-/* Sidebars & Ribbons */
 .workspace-ribbon.mod-left {
-  background-color: #050007;
-  border-right: none;
-  padding: 8px;
+  background-color: #080808;
+  border-right: 1px solid #1a1a1a;
+  padding: 10px 6px;
 }
 
 .workspace-sidebar {
-  background-color: #050007;
+  background-color: #0a0a0a;
 }
 
 .nav-files-container {
-  margin: 8px;
-  background-color: #1a0002;
+  margin: 10px;
+  background-color: #111111;
   border-radius: var(--radius-m);
+  border: 1px solid #1a1a1a;
 }
 
-/* Active File Styling (Material Pill) */
+/* Active File Styling (Subtle Material Pill) */
 .nav-file-title.is-active,
 .nav-folder-title.is-active {
-  background-color: #fc0303 !important;
-  color: #050007 !important;
+  background-color: rgba(252, 3, 3, 0.15) !important;
+  color: #fc0303 !important;
   border-radius: var(--radius-xl);
   font-weight: 600;
+  border-left: 3px solid #fc0303;
 }
 
 .nav-file-title:hover,
 .nav-folder-title:hover {
-  background-color: rgba(252, 3, 3, 0.1);
+  background-color: rgba(252, 3, 3, 0.08);
   border-radius: var(--radius-xl);
 }
 
-/* Floating Action Button Style for Ribbons */
+/* Floating Action Button Style */
 .side-dock-ribbon-action {
-  border-radius: var(--radius-m) !important;
-  margin-bottom: 4px;
+  border-radius: 12px !important;
+  transition: all 0.2s ease;
 }
 
-/* Tab Headers (Material Style) */
+.side-dock-ribbon-action.is-active {
+  background-color: #fc0303 !important;
+  color: #000 !important;
+}
+
+/* Tab Styling */
 .workspace-tab-header {
-  border-radius: var(--radius-m) var(--radius-m) 0 0;
-  margin-right: 2px;
+  border-radius: 10px 10px 0 0;
+  margin-right: 4px;
+  background-color: #111111;
 }
 
 .workspace-tab-header.is-active {
-  background-color: #1a0002;
+  background-color: #1a1a1a;
   color: #fc0303;
+  border-bottom: 2px solid #fc0303;
 }
 
-/* Code Blocks & Cards */
-.markdown-rendered code {
-  background-color: #1a0002;
-  border-radius: var(--radius-s);
-  padding: 2px 6px;
-  color: #fc0303;
+/* Typography Enhancements */
+.markdown-source-view.mod-cm6 .cm-content {
+  font-family: 'Inter', sans-serif;
+  line-height: 1.6;
 }
 
+.markdown-rendered {
+  line-height: 1.7;
+}
+
+/* Code Blocks & Pre */
 pre {
-  background-color: #1a0002 !important;
-  border: 1px solid #2d0008;
-  border-radius: var(--radius-m) !important;
+  background-color: #050505 !important;
+  border: 1px solid #2d0a0a;
+  border-radius: 12px !important;
+  padding: 16px !important;
 }
 
-/* Blockquotes (Material Elevation) */
+/* Blockquotes */
 .markdown-rendered blockquote {
   border-left: 4px solid #fc0303;
-  background-color: #1a0002;
-  border-radius: 0 var(--radius-m) var(--radius-m) 0;
-  margin: 1em 0;
-  padding: 12px 20px;
+  background-color: #111111;
+  border-radius: 0 12px 12px 0;
+  margin: 1.5em 0;
+  padding: 16px 24px;
+  color: #d6b4b0;
+  font-style: italic;
 }
 
-/* Checkboxes (Material Design) */
-.task-list-item-checkbox {
-  border-radius: 4px;
-  appearance: none;
-  border: 2px solid #8b0409;
-}
-
-.task-list-item-checkbox:checked {
-  background-color: #fc0303;
-  border-color: #fc0303;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='black'%3E%3Cpath d='M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z'/%3E%3C/svg%3E");
-}
-
-/* Search Bars */
+/* Search Bars (Material Pill) */
 .search-bar {
-  border-radius: var(--radius-xl) !important;
-  background-color: #1a0002 !important;
-  border: 1px solid #2d0008 !important;
+  border-radius: 20px !important;
+  background-color: #1a1a1a !important;
+  border: 1px solid #2d0a0a !important;
+  padding: 4px 12px !important;
 }
