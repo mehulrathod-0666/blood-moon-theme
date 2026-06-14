@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "version": "1.0",
+  "name": "Theme Name",
+  "theme": {
+    "colors": {
+      "frame": [R, G, B],
+      "toolbar": [R, G, B],
+      "tab_text": [R, G, B],
+      "ntp_background": [R, G, B],
+      "ntp_text": [R, G, B]
+    }
+  }
+}

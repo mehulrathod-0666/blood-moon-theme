@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "version": "1.0",
+  "name": "Midnight Emerald",
+  "description": "Experimental green and black theme",
+  "theme": {
+    "colors": {
+      "frame": [5, 8, 5],
+      "toolbar": [0, 128, 55],
+      "tab_text": [208, 224, 208],
+      "ntp_background": [5, 8, 5],
+      "ntp_text": [208, 224, 208]
+    }
+  }
+}
