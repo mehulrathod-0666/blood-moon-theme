@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "version": "1.0",
+  "name": "Neon Velocity",
+  "description": "High-octane cyberpunk theme",
+  "theme": {
+    "colors": {
+      "frame": [10, 0, 16],
+      "toolbar": [191, 0, 255],
+      "tab_text": [224, 224, 255],
+      "ntp_background": [10, 0, 16],
+      "ntp_text": [224, 224, 255]
+    }
+  }
+}

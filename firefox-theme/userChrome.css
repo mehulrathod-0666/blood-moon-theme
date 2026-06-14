@@ -1,32 +1,18 @@
-/* Blood-Moon Firefox Theme */
+/* Neon-Velocity Firefox Theme */
 
 :root {
-  --toolbar-bgcolor: #050007 !important;
-  --toolbar-color: #e6c4c0 !important;
-  --lwt-accent-color: #050007 !important;
-  --lwt-text-color: #e6c4c0 !important;
-  --lwt-toolbar-field-background-color: #1a0002 !important;
-  --lwt-toolbar-field-color: #e6c4c0 !important;
-  --lwt-toolbar-field-border-color: #660000 !important;
-  --lwt-selected-tab-background-color: #660000 !important;
-  --tab-line-color: #fc0303 !important;
+  --toolbar-bgcolor: #0A0010 !important;
+  --toolbar-color: #E0E0FF !important;
+  --lwt-accent-color: #0A0010 !important;
+  --lwt-text-color: #E0E0FF !important;
+  --lwt-selected-tab-background-color: #BF00FF !important;
+  --tab-line-color: #00FFFF !important;
 }
 
 #nav-bar {
   background-color: var(--toolbar-bgcolor) !important;
-  box-shadow: none !important;
-}
-
-#urlbar-background {
-  background-color: var(--lwt-toolbar-field-background-color) !important;
-  border: 1px solid var(--lwt-toolbar-field-border-color) !important;
 }
 
 .tab-background[selected="true"] {
   background-color: var(--lwt-selected-tab-background-color) !important;
-  background-image: none !important;
-}
-
-.tab-line[selected="true"] {
-  background-color: var(--tab-line-color) !important;
 }
