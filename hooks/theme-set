@@ -3,7 +3,7 @@
 # This hook runs after the theme is set.
 # It automatically applies the Firefox userChrome.css.
 
-THEME_DIR="$HOME/.config/omarchy/themes/blood-moon"
+THEME_DIR="$HOME/.config/omarchy/themes/midnight-emerald"
 FF_THEME="$THEME_DIR/firefox-theme/userChrome.css"
 
 if [[ -d "$HOME/.mozilla/firefox" ]]; then
